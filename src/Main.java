@@ -1,15 +1,18 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Création d'un objet Animal (lion)
+        Animal lion = new Animal("Felidae", "Lion", 5, true);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        // Création d'un objet Zoo (myZoo)
+        Zoo myZoo = new Zoo("Mon zoo", "VilleZoo", 50); // Le zoo peut contenir jusqu'à 50 cages
+
+        // Affectation des valeurs aux attributs du zoo
+        myZoo.addAnimal(lion); // Ajout de l'animal au zoo
+
+        // Affichage des informations du zoo
+        System.out.println("Nom du zoo : " + myZoo.getName());
+        System.out.println("Ville : " + myZoo.getCity());
+        System.out.println("Nombre de cages : " + myZoo.getNbrCages());
     }
+
 }

@@ -1,2 +1,4 @@
-package Main;public class JAVA {
+package Main;
+
+public class JAVA {
 }
