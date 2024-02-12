@@ -7,7 +7,7 @@ public class Management {
         System.out.println("donner le nom du zoo");
         Scanner k=new Scanner(System.in);
         zooName=k.nextLine();
-        System.out.println("donner le nombres des cages ");
+        System.out.println("donner le nombres des ca      ges ");
         //khdmet sifirasssssssssss
         nbrCages=k.nextInt();
         System.out.println(zooName+" contient "+nbrCages+"  cages");
