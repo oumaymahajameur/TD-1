@@ -69,7 +69,7 @@ public class Zoo {
             return false;
         }
     }
-
+//khedmet si firas bouzouraa
     Zoo comparerZoo(Zoo z1, Zoo z2) {
         if (z1.animals.length > z2.animals.length) {
             return z1;
